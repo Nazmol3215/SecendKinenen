@@ -1,18 +1,12 @@
 
-import FilterCatagoori from "./FilterCatagoori/FilterCatagoori";
-
-import AppTen from "./filteredProducts/filteredProducts";
-
-
+import TrendingAndRecommended from "./TrendingAndRecommended/TrendingAndRecommended";
 function App() {
 
   return (
     <>
 
 
-<FilterCatagoori/>
-<AppTen/>
-
+<TrendingAndRecommended/>
 
 
     </>
