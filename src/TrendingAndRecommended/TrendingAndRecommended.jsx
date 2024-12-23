@@ -1,29 +1,34 @@
 import React from "react";
 import "./TrendingAndRecommended.css";
+import picture1 from "../Images/87.png";
+import picture2 from "../Images/s1.png";
+import {useNavigate} from 'react-router-dom';
+
+
 
 const TrendingAndRecommended = () => {
+  const navigateTo = useNavigate();
   return (
     <div className="product-sections">
       {/* Trending Products */}
       <div className="section">
         <h2>Trending Products</h2>
         <div className="product-slider">
-          <div className="product-card">
+          <div className="product-card"  onClick={() => navigateTo("/ProductGrid")}>
             <img
-              src="https://via.placeholder.com/150"
+              src={picture1}
               alt="Wireless Earbuds"
               className="product-image"
             />
             <div className="product-info">
               <h4>Wireless Earbuds</h4>
-              <h4>Wireless Earbuds</h4>
-              <h4>Wireless Earbuds</h4>
+
               <p>$50</p>
             </div>
           </div>
-          <div className="product-card">
+          <div className="product-card" onClick={() => navigateTo("/ProductList")}>
             <img
-              src="https://via.placeholder.com/150"
+              src= {picture2}
               alt="Smartwatch"
               className="product-image"
             />

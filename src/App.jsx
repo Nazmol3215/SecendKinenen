@@ -1,16 +1,25 @@
 
-import TrendingAndRecommended from "./TrendingAndRecommended/TrendingAndRecommended";
+import Index from "./Routeres/Index";
+import Navbar from "./Footer/Navbar";
+import LiveChatthree from "./Livecaht/Chat";
 function App() {
 
   return (
     <>
 
+<Index/>
+<LiveChatthree/>
 
-<TrendingAndRecommended/>
-
-
+<Navbar />
     </>
   )
 }
 
 export default App;
+
+
+
+
+ 
+
+

@@ -1,0 +1,43 @@
+/* Navbar.css */
+.Onenavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    position: fixed; /* নেভবারকে উপরে ফিক্সড রাখবে */
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    margin-top: 56px;
+  }
+  
+  .navbar-logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin: 0 15px;
+  }
+  
+  .navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar-links a:hover {
+    color: #00bcd4;
+  }
+  
